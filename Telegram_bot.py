@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 # رابط Web App الخاص بك (سيتم تعيينه بعد النشر)
-WEB_APP_URL = os.environ.get("WEB_APP_URL", "https://telegram_bot.up.railway.app")
+WEB_APP_URL = os.environ.get("WEB_APP_URL", "https://web-production-9876f.up.railway.app/")
 
 # قاعدة بيانات بسيطة (في الذاكرة)
 user_data = {}
